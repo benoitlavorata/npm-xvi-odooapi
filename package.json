@@ -2,10 +2,10 @@
     "repository": "sbglive/npm-xvi-odooapi",
     "description": "OdooApi",
     "name": "xvi-odooapi",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "main": "OdooApi.js",
     "dependencies": {
-        "odoo-xmlrpc": "^1.0.6",
+        "xvi-odooapi-core": "latest",
         "xvi-helper": "latest",
         "xvi-logger": "latest"
     },
