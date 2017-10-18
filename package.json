@@ -2,12 +2,15 @@
     "repository": "sbglive/npm-xvi-odooapi",
     "description": "OdooApi",
     "name": "xvi-odooapi",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "main": "OdooApi.js",
     "dependencies": {
-        "xvi-odooapi-core": "latest",
+        "del": "^3.0.0",
+        "moment-timezone": "^0.5.13",
+        "read-dir-files": "^0.1.1",
         "xvi-helper": "latest",
-        "xvi-logger": "latest"
+        "xvi-logger": "latest",
+        "xvi-odooapi-core": "latest"
     },
     "author": {
         "name": "Benoit Lavorata",
